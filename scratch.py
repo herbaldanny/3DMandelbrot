@@ -1,6 +1,4 @@
 from math import sqrt as sq
-import numpy as np
-from mpl_toolkits.mplot3d import axes3d
 from matplotlib import pyplot as plt
 
 def size(h):
@@ -45,7 +43,6 @@ def plot(s):
         x.append(i[0])
         y.append(i[1])
         z.append(i[2])
-    fig = plt.figure()
     ax = plt.axes(projection="3d")
     ax.scatter(x, y, z, color='r')
     ax.set_xlabel('X Axes')
