@@ -13,6 +13,7 @@ def qsquare(h):
 
 def main(h,c):
     return tuple(map(lambda i,j: i + j,qsquare(h),c))
+    #www.geeksforgeeks.org/python-addition-of-tuples
 
 def main_recursion(h,n):
     if n == 1:
@@ -49,6 +50,7 @@ def plot(s):
     ax.set_ylabel('Y Axes')
     ax.set_zlabel('Z Axes')
     plt.show()
+    #https://papaprogrammer.com/3d-plots-with-python-and-matplotlib/#3D_Scatter_Plot *I have modified the code quite a lot.
 
 while True:
     p = eval(input("Enter the precision (1 - 5; the bigger the number, the slower the program runs): "))
